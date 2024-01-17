@@ -1,33 +1,25 @@
-package madhav;
-
-import java.io.*;
-import java.awt.*;
-import java.util.*;
-import javax.swing.*;
-
-public class week11 {
-    public static void main(String[]args)
-    {
-        JFrame f=new JFrame("FILE READING EXAMPLE");
-        try
-        {
-            Scanner st=new Scanner(new FileReader("C:\\Users\\student\\Desktop\\22R01A6640\\java.txt"));
-            st.useDelimiter("\\s*,\\s*");
-            while(st.hasNext())
-            {
-                f.add(new Label(st.next()));
-                f.setLayout(new GridLayout(6,2));
-                f.setSize(400,200);
-                f.setVisible(true);
-            }
-        }
-            catch (Exception ex)
-                    {
-                    System.out.println("Error reading file");
-                    }
-            f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        }
-        
-    
-    }
-
+Public class week11 estends Applets implements Action Listeer{
+Textfield tf;
+String op="="
+Double arg=0;
+Public Void Init(){
+SetLayout(new borderLayout());
+tf= new TextField("0);
+add(tf,BorderLayoutNORTh);
+panel p= new panel();
+p.seLayout(new GridLayout(4,5=4);
+String  buttongs="123/456*789-0*.+=);
+for (Int
+Button b - new Button (buttons.Substring(i,i+1));
+p,add(b);
+b.addActionListener(this);
+}
+action performed(ActionEvent ae){
+String s=ae.getActionCommand();
+if('0'<-sChart
+if (Start)
+tf.setTExt(s);
+else TfsetText(Tf.GetText()+s);
+Start=false,}
+else{
+calcu(Double paneDouble(tf.getText());
